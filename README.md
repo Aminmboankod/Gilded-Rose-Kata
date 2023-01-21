@@ -102,6 +102,8 @@ $ ./setup.sh
 ![Diagrama UML](/docs/images/gildedRoseUML.drawio.png)
 ## Pruebas
 ---
+![test](/docs/images/test.png)
 
 ## Coverage
 ---
+![coverage](/docs/images/coverage.png)
