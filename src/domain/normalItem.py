@@ -18,7 +18,7 @@ class NormalItem(Item, Updateable):
         return self.sellIn
 
     def setSellIn(self):
-        self.sellIn = self.getSellIn()-1
+        self.sellIn = self.sellIn + -1
 
     def setQuality(self, value):
         if self.quality + value > 50:
