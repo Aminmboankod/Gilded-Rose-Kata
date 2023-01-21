@@ -13,7 +13,7 @@ def test_agedBrie(store):
 
     '''
     We reate variables with the different states of the AgedBrie object 
-    over the days that are provided in the file /docs/report.txt
+    over the days that are provided in the file report.txt
     '''
 
     dayOne      =   AgedBrie("Aged Brie", 1, 1)

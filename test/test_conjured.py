@@ -13,7 +13,7 @@ def test_conjured(store):
 
     '''
     We reate variables with the different states of the Conjured object 
-    over the days that are provided in the file /docs/report.txt
+    over the days that are provided in the file report.txt
     '''
 
     dayOne      =   Conjured("Conjured Mana Cake", 2, 4)

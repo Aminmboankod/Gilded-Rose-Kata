@@ -13,7 +13,7 @@ def test_backstage(store):
 
     '''
     We reate variables with the different states of the Backstage object 
-    over the days that are provided in the file /docs/report.txt
+    over the days that are provided in the file report.txt
     '''
 
     dayOne      =   Backstage("Backstage passes to a TAFKAL80ETC concert", 14, 21)
