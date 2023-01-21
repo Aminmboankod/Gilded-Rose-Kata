@@ -16,7 +16,7 @@ if __name__=="__main__":
                 Backstage("Backstage passes to a TAFKAL80ETC concert", 15, 20),
                 Backstage("Backstage passes to a TAFKAL80ETC concert", 10, 49),
                 Backstage("Backstage passes to a TAFKAL80ETC concert", 5, 49),
-                Conjured("Conjured Mana Cake", 3, 6),      
+                Conjured("Conjured Mana Cake", 3, 6)
     ]
 
     inventory = GildedRose(itemList)

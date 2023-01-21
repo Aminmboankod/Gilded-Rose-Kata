@@ -9,10 +9,10 @@ def store():
     return item
 
 @pytest.mark.sulfuras
-def test_suluras(store):
+def test_sulfuras(store):
 
     '''
-    We reate variables with the different states of the Conjured object 
+    We reate variables with the different states of the Sulfuras object 
     over the days that are provided in the file report.txt
     '''
 
@@ -53,13 +53,13 @@ def test_suluras(store):
 
 
 
-@pytest.mark.sulfurasnegative
-def test_sulurasNegative(store):
+@pytest.mark.sulfurasNegative
+def test_sulfurasNegative(store):
     
     #New store object with another properties
     store       =   Sulfuras("Hand of Ragnaros", -1, 80)
 
-    
+
     '''
     We reate variables with the different states of the Conjured object 
     over

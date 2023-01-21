@@ -28,9 +28,9 @@ class NormalItem(Item, Updateable):
 
     def updateQuality(self):
         if self.getSellIn() > 0:
-            self.setQuality(-1)
-        else:
             self.setQuality(-2)
+        else:
+            self.setQuality(-4)
         self.setSellIn()  
 
 
