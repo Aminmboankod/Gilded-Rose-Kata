@@ -5,23 +5,23 @@ import pytest
 
 @pytest.fixture
 def store():
-    item = AgedBrie("Aged Brie", 2, 0)
+    item = Conjured("Conjured Mana Cake", 3, 6)
     return item
 
-@pytest.mark.agedBrie
-def test_agedBrie(store):
+@pytest.mark.conjured
+def test_conjured(store):
 
     '''
-    We reate variables with the different states of the AgedBrie object 
+    We reate variables with the different states of the Conjured object 
     over the days that are provided in the file /docs/report.txt
     '''
 
-    dayOne      =   AgedBrie("Aged Brie", 1, 1)
-    dayTwo      =   AgedBrie("Aged Brie", 0, 2)
-    dayThree    =   AgedBrie("Aged Brie", -1, 4)
-    dayFour     =   AgedBrie("Aged Brie", -2, 6)
-    dayFive     =   AgedBrie("Aged Brie", -3, 8)
-    daySix      =   AgedBrie("Aged Brie",-4, 10)
+    dayOne      =   Conjured("Conjured Mana Cake", 2, 4)
+    dayTwo      =   Conjured("Conjured Mana Cake", 1, 2)
+    dayThree    =   Conjured("Conjured Mana Cake", 0, 0)
+    dayFour     =   Conjured("Conjured Mana Cake", -1, 0)
+    dayFive     =   Conjured("Conjured Mana Cake", -2, 0)
+    daySix      =   Conjured("Conjured Mana Cake", -3, 0)
 
     '''
     we update once for each day it spends in the inventory 

@@ -16,12 +16,12 @@ def test_backstage(store):
     over the days that are provided in the file /docs/report.txt
     '''
 
-    dayOne = Backstage("Backstage passes to a TAFKAL80ETC concert", 14, 21)
-    dayTwo = Backstage("Backstage passes to a TAFKAL80ETC concert", 13, 22)
-    dayThree = Backstage("Backstage passes to a TAFKAL80ETC concert", 12, 23)
-    dayFour = Backstage("Backstage passes to a TAFKAL80ETC concert", 11, 24)
-    dayFive = Backstage("Backstage passes to a TAFKAL80ETC concert", 10, 25)
-    daySix = Backstage("Backstage passes to a TAFKAL80ETC concert", 9, 27)
+    dayOne      =   Backstage("Backstage passes to a TAFKAL80ETC concert", 14, 21)
+    dayTwo      =   Backstage("Backstage passes to a TAFKAL80ETC concert", 13, 22)
+    dayThree    =   Backstage("Backstage passes to a TAFKAL80ETC concert", 12, 23)
+    dayFour     =   Backstage("Backstage passes to a TAFKAL80ETC concert", 11, 24)
+    dayFive     =   Backstage("Backstage passes to a TAFKAL80ETC concert", 10, 25)
+    daySix      =   Backstage("Backstage passes to a TAFKAL80ETC concert", 9, 27)
 
     '''
     we update once for each day it spends in the inventory 

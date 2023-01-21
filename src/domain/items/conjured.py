@@ -4,7 +4,7 @@ class Conjured(NormalItem):
     def __init__(self, name, sellIn, quality):
         Item.__init__(self, name, sellIn, quality)
 
-    def update_quality(self):
+    def updateQuality(self):
         if self.sellIn >= 0:
             self.setQuality(-2)
         else:
