@@ -7,10 +7,8 @@
 +   [Manual](#manual)
     +   [Requisitos previos](#requisitos-previos)
     +   [Instalación](#instalación)
-    +   [Uso](#uso)
-+   [Arquitectura de la aplicación](#arquitectura-de-la-aplicación)
-    +   [Modelo DDD](#modelo-ddd)
-    +   [Diagrama UML](#diagrama-uml)
++   [Modelo DDD](#modelo-ddd)
++   [Diagrama UML](#diagrama-uml)
 +   [Pruebas](#pruebas)
     +   [Coverage](#coverage)
 
@@ -87,12 +85,7 @@ Ejecuta el archivo de configuración:
 ```
 $ ./setup.sh
 ```
-## Uso
 
-
-
-## Arquitectura de la aplicación
----
 ## Modelo DDD
 ---
 ![DDD Model](/docs/images/DDDModel-gildedRose.drawio.png)
